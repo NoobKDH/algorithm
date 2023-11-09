@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <time.h>
 
-const int n = 6; 
-const int W = 20; 
+const int n = 4; 
+const int W = 16; 
 int maxprofit = 0, numbest = 0;
-int w[n + 1] = { 0, 2, 5, 10, 5, 7, 3}; 
-int p[n + 1] = { 0, 40, 30, 50, 10, 25, 15 };
+int w[n + 1] = { 0, 2, 5, 10, 5}; 
+int p[n + 1] = { 0, 40, 30, 50, 10};
 int include[n + 1] = { 0 };
 int bestset[n + 1] = { 0 };
 
